@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ic_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/registration"
+            android:textColor="@color/accent"
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:autofillHints="@strings/name"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:fontFamily="@font/ubuntu"
+            android:hint="@string/name"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:inputType="text"
+            android:textColor="@color/primary_dark"
+            android:textColorHint="@color/primary" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:autofillHints="@string/email"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:hint="@string/email"
+            android:fontFamily="@font/ubuntu"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/primary_dark"
+            android:textColorHint="@color/primary" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:autofillHints="@strings/password"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:fontFamily="@font/ubuntu"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/primary_dark"
+            android:textColorHint="@color/primary" />
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn"
+            android:fontFamily="@font/ubuntu"
+            android:text="@string/finish_registration"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnLinkToLoginScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@null"
+            android:text="@string/btnSingIn"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "486557759077",
+    "project_id": "dog-meets-2-0",
+    "storage_bucket": "dog-meets-2-0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486557759077:android:82817551cf9313d62ef88c",
+        "android_client_info": {
+          "package_name": "com.dogmeets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486557759077-rc4n618psmbh4a24n8pagsbnn6t34p6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADUNTRdoH5kQd4dhJR9ik4s8Ldzun2d5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486557759077-rc4n618psmbh4a24n8pagsbnn6t34p6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
